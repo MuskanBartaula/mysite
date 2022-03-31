@@ -88,18 +88,18 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   float: left;
   height: 900px;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
+  -wrap: wrap;
+  -webkit--wrap: wrap;
+  -moz--wrap: wrap;
   display: -webkit-box;
   display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: -ms-box;
+  display: -webkit-;
+  display: ;
 }
 
 .countdown-wrap, .bg-cover {
-  width: 50%;
+  width: 100%;
   background: #232325;
 }
 @media screen and (max-width: 992px) {
@@ -594,11 +594,12 @@ form label {
 
 .my-bio {
   color: #fff;
-  text-align: justify;
+  text-align: center;
 }
 
 .para {
-  padding: 0 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .my-links {
