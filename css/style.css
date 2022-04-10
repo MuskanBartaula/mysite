@@ -593,14 +593,25 @@ form label {
 
 .my-bio {
   color: #fff;
-  text-align: center;
 }
 
 .para {
   width: 50%;
+  text-align: justify;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .para {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 .my-links {
   margin-top: 50px;
+}
+
+.center {
+  text-align: center;
 }
